@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: flex;
+    align-items:center;
+    margin-bottom: 3%;
+}
+
+section {
+    margin-bottom: 5%;
+}
+
+footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 0.8em;
+}
+
+header h1 {
+    font-size: 400%;
+    font-family: 'Tomorrow', sans-serif;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+header img:first-child {
+    margin-left: 28%;
+}
+
+section article {
+    background-color: orange;
+    display: inline-block;
+    position: center;
+    width: 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border: solid black;
+}
+
+section article h2 {
+    margin-bottom: 9%;
+    font-family: 'Alata', sans-serif;
+    text-decoration: underline;
+}
+
+section article form {
+    display: inline-block;
+    position: center;
+    width: 50%;
+}
+
+section article form span {
+    font-family: 'Kulim Park', sans-serif;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+}
+
+section article form input {
+    display: inline-block;
+    float: right;
+}
+
+section article form button {
+    height: 3em;
+    width: 18em;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Alata', sans-serif;
+    font-size: 1em;
+    word-spacing: 0.3em;
+    cursor: pointer;
+}
+
+section article form p {
+    font-family: 'Alata', sans-serif;
+}
+
+footer form {
+    display: inline-block;
+    width: 6%;
+}
+
+.socialButton {
+    background-color: black;
+    border: none;
+    margin-right: 1%;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+.socialMedia {
+    width: 50%;
+}
+
+.entrada {
+    margin-bottom: 1.5em;
+}
+
+.pol {
+    font-size: 0.7em;
+}
+
+.error {
+    color: #ff0009;
+    margin-left: 35%;
+    font-size: 0.8em;
+}
+
+#signature {
+    margin-bottom: 0;
+}
