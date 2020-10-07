@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#header {
+    font-family: 'Cabin', sans-serif;
+    padding-top: 2%;
+}
+
+#header h1 {
+    font-size: 300%;
+}
+
+#main {
+    padding: 3%;
+    text-align: center;
+}
+
+#main #start-button {
+    width: 7%;
+    font-size: 110%;
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+    padding: 0.5%;
+}
+
+#main #info {
+    font-size: 130%;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 2%;
+}
+
+#main #row {
+    margin-top: 5%;
+    text-align: left;
+}
+
+#main #row #left {
+    display: inline-block;
+    width: 50%;
+}
+
+#main #row #left #input {
+    width: 100%;
+    text-align: right;
+    border: none;
+    font-size: 150%;
+    font-family: 'Manrope', sans-serif;
+    color: magenta;
+}
+
+#main #row #palabras {
+    text-align: left;
+    width: 1600%;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    display: inline-block;
+    position: absolute;
+}
+
+#palabra-activa {
+    font-size: 150%;
+    font-family: 'Manrope', sans-serif;
+    border: none;
+    padding: 0;
+    width: auto;
+}
+
+#input:focus {
+    outline: none;
+}
+
+.palabras {
+    font-size: 150%;
+    font-family: 'Manrope', sans-serif;
+    margin-right: 0.05%;
+}
