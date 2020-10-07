@@ -1,0 +1,83 @@
+body {
+    background-color: #618a9a;
+}
+
+#header {
+    border: solid 5px yellowgreen;
+    background-color: darkcyan;
+}
+
+#header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+#main {
+    padding: 4%;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#main input {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 2%;
+    border: solid 5px white;
+}
+
+#main #añadir {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    width: 10%;
+    height: 40px;
+}
+
+#main #lista {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+    font-size: 135%;
+}
+
+#main #buscar {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    width: 20%;
+    height: 40px;
+    background-color: darkcyan;
+    border: solid 2px yellow;
+    color: yellow;
+}
+
+#result #recipes{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+#recipes li:nth-child(odd) {
+    font-size: 150%;
+    list-style-position: inside;
+}
+
+#recipes li:nth-child(even) {
+    margin-bottom: 3%;
+    margin-top: 0.5%;
+    list-style: none;
+}
+
+#recipes a {
+    color: white;
+    text-decoration: none;
+}
+
+#recipes a:hover {
+    color: yellow;
+}
